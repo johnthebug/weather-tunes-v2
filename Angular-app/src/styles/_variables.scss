@@ -1,0 +1,27 @@
+body {
+  --background-color: #efefef;
+  --navbar: #3f51b5;
+  --text: #333333;
+  --weather-card: #ffffff;
+  --weather-box: #dceffd;
+  --music-card: #ff6f61;
+  --search-bar: #ffffff;
+  --search-text: #333333;
+  --secondary-text: #ffffff;
+
+  &.dark {
+    --background-color: #212121;
+    --navbar: #424242;
+    --text: #ffffff;
+    --weather-card: #424242;
+    --weather-box: #37474f;
+    --music-card: #43a047;
+    --search-bar: #ffffff;
+    --search-text: #212121;
+    --secondary-text: #ffffff;
+  }
+}
+
+.spacer {
+  flex: auto;
+}
